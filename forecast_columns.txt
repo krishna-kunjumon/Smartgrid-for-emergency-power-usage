@@ -1,0 +1,46 @@
+   'date' :daily dates from (2015-01-01)-(2021-12-31)
+0: 'market_demand' : electricity demand
+1: 'ontario_demand' : Total Ontario electricity demand, calculated as:
+               (Total Energy + Total Generation Without Offers -Total Exports +Total Off Market +/- Over/Under Generation)
+2: 'year'
+3: 'month'
+4: 'weekday'
+5: 'Day'
+6: 'temp_max': The highest temperature in degrees Celsius (°C) observed at a location for a specified time interval.
+7: 'temp_max_flag' : [Nan, 'E':Estimated, 'M':Missing, 'T':Trace]
+8: 'temp_min' : The lowest temperature in degrees Celsius (°C) observed at a location for a specified time interval.
+9: 'temp_min_flag' :[Nan, 'E':Estimated, 'M':Missing]
+10: 'Mean Temp (°C)' : The mean temperature in degrees Celsius (°C) is defined as the average of the maximum and minimum temperature at a location for a specified time interval.
+11: 'Mean Temp Flag'
+12: 'Heat Deg Days (°C)' : Heating degree-days for a given day are the number of degrees Celsius that the mean temperature is below 18 °C. If the temperature is equal to or greater than 18 °C, then the number will be zero. 
+13: 'Heat Deg Days Flag'
+14: 'Cool Deg Days (°C)' : Cooling degree-days for a given day are the number of degrees Celsius that the mean temperature is above 18 °C. If the temperature is equal to or less than 18 °C, then the number will be zero.
+15: 'Cool Deg Days Flag'
+16: 'Total Rain (mm)' : The total rainfall, or amount of all liquid precipitation in millimetres (mm) such as rain, drizzle, freezing rain, and hail, observed at the location during a specified time interval.
+17: 'Total Rain Flag'
+18: 'Total Snow (cm)' : The total snowfall, or amount of frozen (solid) precipitation in centimetres (cm), such as snow and ice pellets, observed at the location during a specified time interval.
+19: 'Total Snow Flag'
+20: 'Total Precip (mm)' : The sum of the total rainfall and the water equivalent of the total snowfall in millimetres (mm), observed at the location during a specified time interval.
+21: 'Total Precip Flag'
+22: 'Snow on Grnd (cm)' : The depth of snow in centimetres (cm) on the ground.
+23: 'Snow on Grnd Flag'
+24: 'Dir of Max Gust (10s deg)' : The direction of the maximum gust (true or geographic, not magnetic) from which the wind blows. Expressed in tens of degrees (10's deg), 9 means 90 degrees true or an east wind, and 36 means 360 degrees true or a wind blowing from the geographic North Pole. This value is only reported if the maximum gust speed for the day exceeds 29 km/h.
+25: 'Dir of Max Gust Flag'
+26: 'Spd of Max Gust (km/h)' : he speed in kilometres per hour (km/h) of the maximum wind gust during the day. 
+27: 'Spd of Max Gust Flag'
+28: 'country_region_code'
+29: 'country_region'
+30: 'sub_region_1'
+31: 'sub_region_2'
+32: 'metro_area'
+33: 'iso_3166_2_code'
+34: 'census_fips_code'
+35: 'retail_and_recreation_percent_change_from_baseline' : Mobility trends for places like restaurants, cafes, shopping centers, theme parks, museums, libraries, and movie theaters.
+36: 'grocery_and_pharmacy_percent_change_from_baseline' : Mobility trends for places like grocery markets, food warehouses, farmers markets, specialty food shops, drug stores, and pharmacies.
+37: 'parks_percent_change_from_baseline' : Mobility trends for places like local parks, national parks, public beaches, marinas, dog parks, plazas, and public gardens.
+38: 'transit_stations_percent_change_from_baseline' : Mobility trends for places like public transport hubs such as subway, bus, and train stations.
+39: 'workplaces_percent_change_from_baseline' : Mobility trends for places of work.
+40: 'residential_percent_change_from_baseline' : Mobility trends for places of residence
+41: 'driving'
+42: 'walking'
+43: 'transit'
